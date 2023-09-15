@@ -8,6 +8,7 @@ import search from './Images/Search.png'
 import favorite from './Images/Heart.png'
 import favoriteRed from './Images/HeartSvg.svg'
 import { Link } from 'react-router-dom'
+import FeaturedMovie from '../components/FeaturedMovie'
 
 const Header = () => {
   const [term, setTerm] = useState("");
@@ -103,7 +104,7 @@ const Header = () => {
             </form>
       </div>
     
-     <div className="flex flex-col text-white w-full md:w-1/2 mt-4 pb-[8rem] py-6 space-y-6 justify-center md:justify-start pl-[4rem] md:pl-[10rem] md:px-[8rem]">
+     <div className="flex flex-col text-white w-full md:w-1/2 mt-4 pb-[8rem] py-6 space-y-6 justify-center md:justify-start pl-[2rem] sm:pl-[4rem] md:pl-[10rem] md:px-[8rem]">
         <h4 className='text-[48px] font-bold leading-[3rem]'>John Wick 3 : <br />Parabellum</h4>
         <div className="flex space-x-3">
           <span className="flex space-x-2">
@@ -154,6 +155,7 @@ const Header = () => {
    </div>
      )))}
      </div>
+     <FeaturedMovie />
     </div>
   );
     

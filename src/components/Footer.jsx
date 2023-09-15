@@ -13,7 +13,7 @@ const Footer = () => {
         <img src={twitter} alt="" />
         <img src={youtube} alt="" />
       </div>
-      <div className="flex space-x-6 justify-center font-semibold">
+      <div className="flex space-x-3 md:space-x-6 justify-center font-semibold">
         <p>Contribution of Use</p>
         <p>Privacy & Policy</p>
         <p>Press Room</p>
