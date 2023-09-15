@@ -1,3 +1,4 @@
+import FeaturedMovie from '../components/FeaturedMovie'
 import { useEffect, useState } from "react";
 import logo from './Images/Logo.png'
 import menu from './Images/hamburger.png'
@@ -8,7 +9,7 @@ import search from './Images/Search.png'
 import favorite from './Images/Heart.png'
 import favoriteRed from './Images/HeartSvg.svg'
 import { Link } from 'react-router-dom'
-import FeaturedMovie from '../components/FeaturedMovie'
+
 
 const Header = () => {
   const [term, setTerm] = useState("");

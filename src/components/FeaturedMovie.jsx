@@ -19,7 +19,7 @@ const FeaturedMovie = () => {
 
   const getMovie = () => {
     fetch(
-      "https://api.themoviedb.org/3/movie/top_rated?api_key=cda4ffa2942badacf7d635acb2bbe728"
+      "api_key=cda4ffa2942badacf7d635acb2bbe728"
     )
       .then((res) => res.json())
       .then((json) => setMovieList(json.results))
